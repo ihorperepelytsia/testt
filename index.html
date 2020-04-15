@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="">
+      <div>
+        <div class="form-div">
+          <input id="ширинаГотовойШторы" type="number" placeholder="0" />
+          <label for="ширинаГотовойШторы"> - Длина карниза для шторы, м</label>
+        </div>
+        <div class="form-div">
+          <input id="ширинаГотовойТюли" type="number" placeholder="0" />
+          <label for="ширинаГотовойТюли"> - Длина карниза для тюли, м</label>
+        </div>
+        <div class="form-div">
+          <input id="нашаЦенаЗа1метрТканиШторы" type="number" placeholder="0" />
+          <label for="нашаЦенаЗа1метрТканиШторы"> - Цена ткани штор, грн</label>
+        </div>
+        <div class="form-div">
+          <input id="нашаЦенаЗа1метрТканиТюли" type="number" placeholder="0" />
+          <label for="нашаЦенаЗа1метрТканиТюли"> - Цена ткани тюли, грн</label>
+        </div>
+        <div>
+          <input type="checkbox" name="цельнаяШтора" id="цельнаяШтора" />
+          <label for="цельнаяШтора"> - Штора цельная</label>
+        </div>
+        <div>
+          <input type="checkbox" name="двойнаяШтора" id="двойнаяШтора" />
+          <label for="двойнаяШтора"> - Штора в 2х куска</label>
+        </div>
+        <div>
+          <input type="checkbox" name="цельнаяТюль" id="цельнаяТюль" />
+          <label for="цельнаяШтора"> - Тюль цельная</label>
+        </div>
+        <div>
+          <input type="checkbox" name="двойнаяТюль" id="двойнаяТюль" />
+          <label for="двойнаяШтора"> - Тюль в 2х куска</label>
+        </div>
+      </div>
+
+      <div class="form-btn buttonBtn">
+        <button class="add" type="button">Посчитать</button>
+      </div>
+      <div class="form-btn">
+        <button class="clear" type="button">Очистить</button>
+      </div>
+    </form>
+
+    <div class="boxex"></div>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
